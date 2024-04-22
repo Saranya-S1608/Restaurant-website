@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Dindigul Thalappakatti Briyani Restaurant</h1>
+    <h2><i>Welcome Legendary Biriyani</i> </h2>
+    <hr />
+    <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="menu.html">Main Menu</a></li>
+       <li><a href="about.html">About Us</a></li>
+       <li><a href="contact.html">Contact Us</a></li>
+       <li><a href="menu.html#dessert">Check our new Desserts</a></li>
+        
+    </ul>
+    <h2>Contact Us</h2>
+    <h3>Address</h3>
+    <p>Thalappakatti Hotels Pvt Ltd.,<br />
+        No. 25/30, Fourth floor,<br />
+        Ramky House, Hennur Outer Ring Rd,<br />
+        Kalyan Nagar,<br />
+       Dindigul-624009</p>
+       <p>Email-id: feedback@thalappakatti.com</p>
+       <p>Facebook-id: fpk@thalappakatti.com</p>
+       <p>Contact:9876543211</p>
+       <a href="mailto:feedback@thalappakatti.com">Send a mail to us</a>
+       <br>
+       <h5>Fill the Form to join a member</h5>
+       <form action="result.html" method="GET">
+        <div>
+        <label for="Username">UserName</label>
+        <input type="text" name="Username" id="Username"  required maxlength="10">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password"  minlength="7" required>
+    </div>
+    <div>
+        <label for="dateofbirth">Date of Birth</label>
+        <input type="date" id="dateofbirth" name="dateofbirth" maxlength="4" min=1888 step="1" required>
+    </div>
+    <div>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+    </div>
+    <div>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+
+    </div>
+    <div>
+        <label for="tel">Phonenumber</label>
+        <input type="number" name="tel" id="tel" maxlength="10">
+    </div>
+
+    <div>
+        <label for="state">Your State </label>
+        <select name="state" id="state" >
+            <option value="TamilNadu" label="TamilNadu"></option>
+            <option value="Kerala">Kerala</option>
+            <option value="Karnataka">Karnataka</option>
+        </select>
+    </div>
+    <div>
+        <label for="about">About</label>
+        <textarea name="about" id="about" cols="49" rows="4">About me,..</textarea>
+    </div>
+   <div>
+    <input type="checkbox" name="agreement" id="agreement" required>
+   <label for="agreement">I have agree the terms and conditions</label>
+    
+   </div>
+  
+    <!-- <button type ="submit">Sign Up</button> -->
+  
+    <button type="reset">Reset</button>
+    <input type="image" src="images/submit.png" width="150">
+   
+       </form>
+       <audio src="images/song.mp3" loop autoplay></audio>
+</body>
+</html>

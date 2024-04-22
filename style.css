@@ -1,0 +1,13 @@
+h1{
+    color:brown;
+    background-color: rgba(235, 162, 217, 0.9);
+}
+a{
+    color:blue;
+}
+h1+h2{
+    color:rgba(109, 68, 95, 0.9);
+}
+body{
+    background-color: white;
+}
